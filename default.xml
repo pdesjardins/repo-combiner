@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="github"
+           fetch="https://github.com" />
+
+  <project name="edx/edx-documentation" remote="github" path="docs"/>
+  <project name="edx/edx-platform" remote="github" path="platform"/>
+
+</manifest>
