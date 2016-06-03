@@ -13,3 +13,5 @@
   <project name="edx/edx-certificates" remote="github" path="edx-certificates"/>
   <project name="edx/api-manager" remote="github" path="api-manager"/>
 </manifest>
+
+<!-- Instructions -->
