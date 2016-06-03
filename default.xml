@@ -2,6 +2,9 @@
 <manifest>
   <remote  name="github"
            fetch="https://github.com" />
+           
+  <default revision="master"
+           remote="github" />
 
   <project name="edx/edx-documentation" remote="github" path="docs"/>
   <project name="edx/edx-platform" remote="github" path="platform"/>
