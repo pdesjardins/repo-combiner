@@ -6,7 +6,7 @@
   <default revision="master"
            remote="github" />
 
-  <!-- <project name="edx/edx-documentation" remote="github" path="edx-documentation"/> -->
+  <project name="edx/edx-documentation" remote="github" path="edx-documentation"/>
   <project name="edx/edx-platform" remote="github" path="edx-platform"/>
   <project name="edx/ecommerce" remote="github" path="ecommerce"/>
   <project name="edx/course-discovery" remote="github" path="course-discovery"/>
@@ -14,4 +14,19 @@
   <project name="edx/api-manager" remote="github" path="api-manager"/>
 </manifest>
 
-<!-- Instructions -->
+<!-- Instructions
+
+This is a manifest file for the Google Android repo tool. It will clone 
+local copies of multiple git repositories, placing them in at fixed 
+relative file paths. For more information about the repo tool, see 
+http://source.android.com/source/developing.html.
+
+To use repo for edX repositories, change to an empty directory and invoke
+the following commands.
+
+curl https://storage.googleapis.com/git-repo-downloads/repo > repo
+chmod a+x repo
+./repo init -u https://github.com/edx/edx-documentation.git
+./repo sync
+
+ -->
